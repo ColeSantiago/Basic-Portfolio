@@ -10,7 +10,7 @@ body {
 	background-repeat: repeat-x repeat-y;
 	color: #777777;
 	margin: 0;
-	font-family: 'Arial';
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
 	
 	
 }
@@ -30,7 +30,7 @@ body {
 	border: 1px solid black;
 	border-bottom: none;
 	z-index: 6;
-	font-family: Times;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 
 }
@@ -38,7 +38,7 @@ body {
 .aboutme {
 	color: #3f7d92;
 	font-size: 40px;
-	font-family: Times;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 	margin-bottom: 30px;
 
@@ -55,6 +55,8 @@ body {
 
 }
 
+
+
 .about {
 	
 	right: -1071px;
@@ -62,6 +64,14 @@ body {
 	color: #777777;
 	text-decoration: none;
 
+}
+
+.about:hover {
+	color: #b9b7b7;
+}
+
+.about:active {
+	color: white;
 }
 
 p {
@@ -77,11 +87,26 @@ p {
 	text-decoration: none;
 }
 
+.portfolio:hover {
+	color: #b9b7b7;
+}
+.portfolio:active {
+	color: white;
+}
+
 .contact {
 	top: 76px;
 	right: -1133px;
 	color: #777777;
 	text-decoration: none;
+}
+
+.contact:hover {
+	color: #b9b7b7;
+}
+
+.contact:active {
+	color: white;
 }
 
 
@@ -129,7 +154,7 @@ p {
 .withme {
 	color: #3f7d92;
 	font-size: 28px;
-	font-family: Times;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 }
 
@@ -139,15 +164,27 @@ p {
 
 }
 
+.git:hover {
+	opacity: 0.9
+}
+
 .linkin {
 	width: 75px;
 	height: 75px;	
+}
+
+.linkin:hover {
+	opacity: 0.9
 }
 
 .stack {
 	width: 67px;
 	height: 67px;
 	margin: 4px;
+}
+
+.stack:hover {
+	opacity: 0.9
 }
 
 footer {
@@ -180,10 +217,7 @@ footer {
 	top: 148px;
 	left: -265px;
 	z-index: 1;
-	border: 1px solid black;
-	
-
-	
+	border: 1px solid black;	
 
 }
 
@@ -218,7 +252,7 @@ footer {
 .port {
 	color: #3f7d92;
 	font-size: 28px;
-	font-family: Times;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 }
 
@@ -226,6 +260,7 @@ footer {
 	margin-left: 20px;
 	margin-bottom: 50px;
 	opacity: 0.5;
+	
 
 }
 
@@ -246,6 +281,7 @@ footer {
 	margin-left: 40px;
 	margin-bottom: 50px;
 	opacity: 0.5;
+	
 }
 
 .rpg {
@@ -264,6 +300,7 @@ footer {
 	margin-left: 20px;
 	margin-bottom: 50px;
 	opacity: 0.5;
+	
 
 }
 
@@ -283,6 +320,7 @@ footer {
 	margin-left: 40px;
 	margin-bottom: 50px;
 	opacity: 0.5;
+	
 
 }
 
@@ -301,6 +339,7 @@ footer {
 	margin-left: 20px;
 	margin-bottom: 50px;
 	opacity: 0.5;
+	
 
 }
 
@@ -333,7 +372,7 @@ footer {
 .contact-header {
 	color: #3f7d92;
 	font-size: 28px;
-	font-family: Times;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 }
 
